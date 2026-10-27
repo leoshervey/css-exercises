@@ -1,3 +1,7 @@
+*{
+  outline: red;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,7 +25,11 @@ body {
   background: green;
   color: white;
   font-weight: bold;
-} 
+  &:hover{
+    background-color: lightgreen;
+    color: white;
+  }
+}
 
 .button {
   background-color: rgb(255, 255, 255);
